@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "'Ubuntu Mono', Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.codeLens": false,
+    "editor.wordWrap": true,
+    "workbench.welcome.enabled": false,
+    "window.zoomLevel": 0
+}
