@@ -1,9 +1,15 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.fontFamily": "'Ubuntu Mono', Monaco, 'Courier New', monospace",
-    "editor.fontSize": 16,
+    "editor.fontSize": 16.5,
     "editor.codeLens": false,
-    "editor.wordWrap": true,
+    "editor.rulers": [100],
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "extensions.autoUpdate": false,
     "workbench.welcome.enabled": false,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.activityBar.visible": true
 }

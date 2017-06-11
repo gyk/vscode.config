@@ -8,5 +8,12 @@
                                          "when": "editorFocus" },
     { "key": "f4",                    "command": "editor.action.addSelectionToNextFindMatch",
                                          "when": "editorFocus" },
-    { "key": "cmd+k cmd+d",           "command": "editor.action.formatDocument" }
+    { "key": "cmd+y",                 "command": "redo" },
+    { "key": "cmd+k cmd+d",           "command": "editor.action.formatDocument" },
+    { "key": "cmd+k cmd+p",           "command": "workbench.action.showCommands" },
+    { "key": "cmd+k cmd+u",           "command": "extension.changeCase.commands" },
+    { "key": "cmd+j",                 "command": "editor.action.triggerSuggest",
+                                         "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
+    { "key": "cmd+k cmd+f",           "command": "rewrap.rewrapComment",
+                                         "when": "editorTextFocus" }
 ]
