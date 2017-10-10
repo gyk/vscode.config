@@ -15,5 +15,7 @@
     { "key": "cmd+j",                 "command": "editor.action.triggerSuggest",
                                          "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
     { "key": "cmd+k cmd+f",           "command": "rewrap.rewrapComment",
+                                         "when": "editorTextFocus" },
+    { "key": "cmd+k cmd+s",           "command": "sortLines.sortLines",
                                          "when": "editorTextFocus" }
 ]
