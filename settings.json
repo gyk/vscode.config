@@ -7,9 +7,18 @@
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
     "extensions.autoUpdate": false,
-    "workbench.welcome.enabled": false,
+    "workbench.startupEditor": "none",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Quiet Light",
     "workbench.iconTheme": "vs-minimal",
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    // See https://github.com/rust-lang-nursery/rls/issues/263
+    "rust.mode": "legacy",
+    "rust.rustup": {
+        "nightlyToolchain": "nightly-x86_64-apple-darwin",
+        "toolchain": "stable-x86_64-apple-darwin"
+    },
+    "rust.rls": {
+        "useRustfmt": false
+    }
 }
