@@ -6,7 +6,9 @@
     "editor.rulers": [100],
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
+    "editor.emptySelectionClipboard": false,
     "extensions.autoUpdate": false,
+    "files.trimTrailingWhitespace": true,
     "workbench.startupEditor": "none",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Quiet Light",
@@ -20,5 +22,6 @@
     },
     "rust.rls": {
         "useRustfmt": false
-    }
+    },
+    "workbench.panel.location": "bottom"
 }
