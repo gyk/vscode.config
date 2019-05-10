@@ -14,14 +14,17 @@
     "workbench.colorTheme": "Quiet Light",
     "workbench.iconTheme": "vs-minimal",
     "workbench.activityBar.visible": true,
-    // See https://github.com/rust-lang-nursery/rls/issues/263
-    "rust.mode": "legacy",
-    "rust.rustup": {
-        "nightlyToolchain": "nightly-x86_64-apple-darwin",
-        "toolchain": "stable-x86_64-apple-darwin"
-    },
-    "rust.rls": {
-        "useRustfmt": false
-    },
-    "workbench.panel.location": "bottom"
+
+    "rust.all_targets": false,
+    "rust.clippy_preference": "off",
+    "rust.racer_completion": true,
+    "rust.show_warnings": false,
+    "rust.wait_to_build": 2000,
+
+    "workbench.panel.defaultLocation": "bottom",
+    "terminal.integrated.fontSize": 14,
+    "extensions.ignoreRecommendations": true,
+    "workbench.statusBar.feedback.visible": false,
+    "explorer.confirmDragAndDrop": false,
+    "julia.usePlotPane": false
 }
