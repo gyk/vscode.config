@@ -31,5 +31,6 @@
     "workbench.colorTheme": "Quiet Light",
     "FSharp.smartIndent": true,
     "FSharp.lineLens.enabled": "never",
-    "FSharp.enableTouchBar": false
+    "FSharp.enableTouchBar": false,
+    "editor.snippetSuggestions": "top"
 }
